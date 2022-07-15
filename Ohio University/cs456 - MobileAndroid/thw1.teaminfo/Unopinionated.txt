@@ -1,0 +1,102 @@
+- Team Name: Unopinionated 
+- Team Members: Ryan Kara, Corbin Baum, Bo Li, and JJ Linser
+- Time and location of the two weekly meeting slots
+	Days: Tuesday and Thursday
+	Location: ARC Atrium
+	Time: 12:01 PM
+	
+- Member names
+	Ryan Kara
+		- Type, number, spec of smartphone/pad that you have access to
+			- Samsung Galaxy Nexus
+				- Carrier: Verizon
+				- Screen Dim: 720 x 1280 4.65 in.
+				- Android Version: 4.1.1 Jellybean
+			- HP Touchpad
+				- Screen Dim: 768 x 1024 9.7 in.
+				- Android Version: 4.0.4 Ice Cream Sandwich
+				- Alternate OS: WebOS
+				
+		- Type, number, spec of development computers that you have access to
+			- Laptop
+				- Brand: Dell
+				- Processor: Intel Core 2 Duo 2.20 GHz
+				- Memory: 6 GB
+				- HDD: 500 GB
+			- Desktop
+				- Brand: Self-made
+				- Processor: AMD Athlon II X3 450 Rana 3.2GHz
+				- Memory: 20 GB
+				- HDD: 3.5 TB
+				
+		- Type, number, spec of server computers that you have access to
+			- Server
+				- Brand: HP
+				- Currently running WAMP, but will soon be switching to IIS
+				- Processor: Intel Core Duo 2.40 GHz
+				
+		- List each member's familarity with different programming languages.
+			- C++: Knowledge through class
+			- C#: Most confident in C#, though I still have much to learn
+			- ASP.NET: Uses C# through .NET Framework, so I am confident in it
+			- Android w/ Java: Very confident, though I still have much to learn
+			- ExTensibile Stylesheet Language Transforms (XSLT's): Not much knowledge, though I did use it some during the summer.  
+			- Javascript (and jQuery): Some basic knowledge
+			- Html and CSS: Good knowledge
+			
+			
+	Corbin Baum 
+		- Type, number, spec of smartphone/pad that you have access to
+			-None
+		- Type, number, spec of development computers that you have access to
+			-Desktop
+			-AMD Phenom 960t
+			-4gb
+			-2Tb hard drive
+			-windows 7
+		- Type, number, spec of server computers that you have access to
+			-none
+		- List each member's familarity with different programming languages. In particular, explicitly state each member's familarity with Java.
+			-Java experience is decent
+			-also know C++, python, javascript, html/css
+			
+	Bo Li
+		- Type, number, spec of smartphone/pad that you have access to
+		    -Iphone 4S
+			-Version 5.1
+			-32 GB Capacity
+		- Type, number, spec of development computers that you have access to
+	        -Alienware M17x
+			-I7-2820QM
+			-8 gigs of RAM, 320 GB Hard drive
+			-windows 7 Processor
+		- Type, number, spec of server computers that you have access to
+			None
+		- List each member's familarity with different programming languages. In particular, explicitly state each member's familarity with Java.
+			-My native langauge is C++
+			-I also know JAVA, but it is not good as C++
+	JJ Linser
+		- Type, number, spec of smartphone/pad that you have access to
+			-Iphone 4S
+			-Version 5.1
+			-16 GB Capacity
+		- Type, number, spec of development computers that you have access to
+		    1)  HP Pavilion Desktop
+			-Windows 7 Professional
+			-AMD Quad Core Processor
+			-4 gigs of RAM, 500 GB Hard drive
+			-2 Dual 24 inch monitors
+			2)  Apple MacBook Pro 13''
+			-Lion 10.1 OS, 3 Gigs Ram
+			-300 GB Hard Drive
+			-Intel Core 2 Duo
+		- Type, number, spec of server computers that you have access to
+		    None
+		- List each member's familarity with different programming languages. In particular, explicitly state each member's familarity with Java.
+			-I do not have much experience with JAVA.  
+			-My native langauge is C/C++.  
+			-I am fluent in assembly as well, and I have some experience with Python.  
+			I am familiar with Windows scripting/API such as PowerShell and Command Prompt. 
+			-I also have experience with network engineering such as TCP/IP and
+			UDP.
+

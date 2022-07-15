@@ -1,0 +1,37 @@
+
+- Team Name: Team Extreme
+
+- Member names: Charles Kuehne
+		Jerry Newsome
+		Chris Swingle
+		Marwa Alnakhli
+- Meetings:
+	Tuesday and Thursday at 12:00pm
+
+- Type, number, spec of smartphone/pad that you have access to:
+ 	smartphone DROIDX, android version 2.3.4
+	Motorola Cliq XT smartphone, android version 1.5
+	Nexus 7 tablet, android version 4.1.1
+	Smartphone, Samsung i727, android version 4.0.4
+	Tablet, Samsung i957, android version 3.2
+	smartphone samsung sII i9100 androis version 4.0
+	
+- Type, number, spec of development computers that you have access to
+	laptop, satelite L505D, windows 7
+	netbook, Toshiba  NB255, windows 7 (32 bit)
+	desktop, Dell Dimension 2400, Windows XP
+	desktop, Custom, Windows 7 Professional (64 bit)
+	laptop, Dell Inspiron 600m, Crunchbang Linux
+	laptop, HP pavilion, window 7	
+
+
+- Type, number, spec of server computers that you have access to
+	desktop, Dell Dimension 2400, Windows XP (set up with dynamic dns and WAMP)
+
+
+- List each member's familarity with different programming languages. In particular, explicitly state each member's familarity with Java.
+
+Charles Kuehne: C++, no java.
+Jerry Newsome: C++, PHP, javascript, Java(beginner level)
+Chris Swingle: C, C++, Java(beginner level)
+Marwa Alnakhli: C++, no java

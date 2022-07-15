@@ -1,0 +1,25 @@
+Randal Obringer
+
+Individual Homework Assignment 5: Separation of implementation from interface.
+
+By separation of the implementation of the code and the interface, I assume that it is the "graphical" or "user" interface that is desired for this assignment. And if that is the case then I choose DCOPEActivity.java as the nontrivial class for this assignment. 
+
+DCOPEActivity is one of the six questionaire's I have implemented for this app. I choose this activity (and essentially the other 5 questionaire activities) because of the way their internal workings are seperated from the user. 
+
+The interface for the DCOPEActivity is a ScrollView with seven RadioGroups. Each RadioGroup has five RadioButtons and text associated with it which asks the user questions. These Questions decide how the user will answer each RadioGroup. Below the ScrollView there are two buttons, a send button and a save button. 
+
+The graphical interface described above makes it very easy to read and follow along with the questionaire. The user can scroll through the entire quesionaire so the user can control what they are looking at. Only one touch of the screen is needed per question in order to complete the questionaire. Pressing the send button is all that is needed to send the questionaire to the server.
+If the user couldn't finish the questionaire in time then the user can press the save button and try again later. So the interface therefore is very user friendly which was the goal for the questionaires.
+
+The implementation of the questionaire was a lot more difficult and four variables were actually needed to store the data for each RadioGroup. Proper linking of these RadioGroups was necessary in order to convey the correct information to the server. Dates of when the user completes the questionaire, and the current completeness status and save status of the questionaire are all necessary in order to make sure the questionaires act the way they are supposed to when the user interface is reacted with. This data defines how the list of questionaires is populated so the user knows which questionaires they have to take still in a given day. All of this data manipulation and date and status checking is all hidden away from the user, because all the user should really care about is that the questionaire works and that it sends their completed questionaires off to the doctors that need that questionaire. All the doctors should care about is that the questionaires are done daily, before the user goes to bed everyday; and that each questionaire can only be completed once per day per patient. The implementation does that: and ensures each questionaire is only available after 6:00 p.m. every day, and after the questionaire is completed and the user presses send, the user will never see it again and they can trust that the doctor will get it. 
+
+The general benefits in seperating any implementation from the interfaces are great.
+Seperation of implementation and interface...
+
+- Allows for code to become more readable - there are APIs that code many frequently used functions that make code easier to read because the functions have meaningful names and hide away the code that each function is made of.
+
+- Allows for the programmer to save time - The functions in APIs (as mentioned above) save time programming. Because they have already been implemented, the programmer doesn't have to reinvent the wheel. 
+
+- Prevents errors - Having interfaces that have coded functions have most likely been very well tested. Because they have been very well tested, you can use them to your benefit to implement other functions which causes less errors. 
+
+- Provide ease of use - This has probably already been mentioned but it is just simpler to use because it prevents the programmer from reinventing the wheel. It is something the user of the interface can use and get results. How it is implemented doesn't matter. 

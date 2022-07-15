@@ -1,0 +1,14 @@
+Homework assignment 4. TeamWATCH
+
+==Part 1, Due 14b. ==
+
+Answer the following questions about the Notepad++ project history using the TeamWATCH 3D client. A Windows version and a Mac version of this tool are included in this folder. 
+
+(1)	When was the WordStyleDlg.cpp file last modified?
+(2)	Which folders was "harrybharry" last working on?
+(3)	Who at which revision modified the file "/trunk/PowerEditor/src/Notepad_plus.cpp"? List the authors names and revision numbers.
+(4)	Which file went through the most revisions? Who contributed most to this file?
+
+Submit by sending Dr. Liu an email message. Use "F2012 CS4560 HW4 Part 1 from Name OAKID" as the subject line. For each question, include the answer text plus a screenshot that helped you identify the answer.
+
+ 

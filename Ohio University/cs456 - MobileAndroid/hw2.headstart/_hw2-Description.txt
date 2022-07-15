@@ -1,0 +1,16 @@
+Individual Homework Assignment 2: Headstart App. 
+
+==Part 1. Due 3A. (Before the Tuesday session of Week 3.)==
+
+* Description:
+
+Compile one headstart app from last quarter. Capture one or more screenshots of the full desktop on your own computer. Submit the screenshots to this folder. Name your screenshot as "OAKID-Name-hw2-LastQuarterTeamNumberAndName-ScreenshotNum.png".
+
+It's best that each team member compiles a different app from last quarter.
+
+
+==Part 2. Due 3B.==
+
+Get screenshots of all main features of the app you review.
+
+Submission: submit additional screenshots to this folder.

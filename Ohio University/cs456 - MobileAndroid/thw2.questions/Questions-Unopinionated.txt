@@ -1,0 +1,77 @@
+Which App:  Marmaduke, CoffeeRobots, and JavaJunkies
+	- We're gonna start from scratch, but use these for references
+
+Who will the users be?  Will the app need to be password protected? Will parts of the app need to be restricted to only specific users?
+	Patient (Access certain functions, exercise (too much to enter all of that data)) & Nurse Login (extra data notes).  
+
+How technical are your users?
+	Older Individuals, so not great.  
+	
+Should we include accessibility options? (larger text, high contrast, read aloud)?
+	Yes, it would be great (Mean age 67) to adjust font size.  Contrast not mentioned in answer.  
+	
+How often will the videos/media be updated?
+	Things were updated over the year, so things are updated at least yearly.  
+	
+Is this app only going to run on the transformer pad? (for layout design)
+	No, we're going to attempt to get it to run on other devices with larger/smaller screens (DO NOT USE SPECIFIC FONT/DIMENSIONS WHEN PROGRAMMING.)
+
+Will the patient have the device at home?
+	Patient has to take device home, need a user account
+	
+Will each patient have there own device?
+	Ideally yes, but they cannot afford to do that.  
+	
+Logging in
+	If their information is not tied to it, it does not need to be password protected
+	Confidentiality - Exercise Data, Medical Data, and Questionarres
+
+At home use
+	Notifications for eating, pictures of food, at least 30 minutes of exercise every day (fit bit pedometer , daily total number stat)
+
+Monitored exercise, but now it's more comprehensive
+Nutrition, psychosocial component, Monitored exercise
+Prospective design - Predict heart disease
+	Lifestyle factors (smoking, drinking, depresssion, obesity)
+Slides shows, videos, and audio components should be updateable.
+Track what they are doing at home.  
+	- Are they listening to the tapes/videos at home.
+	- Eating behavior
+		- Food Diary - Three day recall
+			- Write down everything you eat
+		- User inputs how much, and what, food and program outputs calories, fat and such.
+		- Picture of food before eating (reminder via notification) - Or note that they forgot
+			- User takes picture then uploads it
+		- Tracking device for exercise
+			- Intersting behavior
+			- UP, fitbit, nike pedomoter (bluetooth?)
+			- ActiGraph (more advanced)
+			
+Login - Name (First and Last) and  Password is a 4 # PIN
+
+Blood Pressure and such before and after exercise (doctors and nurses) All goes to same database
+Graphs for this kind of information
+Exercise changes over time (Increased workload) 
+	- Each patient has different goals
+	
+Text Refill
+Qualtrics - Survey monkey online questionarre
+
+
+JJ's Notes:
+	- Track when they're opening stuff
+	- Food diary
+	- Adding/Deleting user account Server Side
+	
+Bo's Notes:
+	- Take picture of food
+	- Graph of carb data
+
+	
+	
+Save info then send to server when there is a connection
+Look into a way to connect to survey monkey
+Login screen with two buttons
+
+
+

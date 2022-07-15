@@ -1,0 +1,15 @@
+Team Homework Assignment 1: Basic Team Info. Due 2B. (Before the Thursday session of Week 2.)
+
+* Description:
+
+Create a text file for your team; include the following info:
+- Team Name
+- Time and location of the two weekly meeting slots
+- Member names
+- Type, number, spec of smartphone/pad that you have access to
+- Type, number, spec of development computers that you have access to
+- Type, number, spec of server computers that you have access to
+- List each member's familarity with different programming languages. In particular, explicitly state each member's familarity with Java.
+
+
+Name the file as "TEAM-NAME.txt" and submit in this folder.

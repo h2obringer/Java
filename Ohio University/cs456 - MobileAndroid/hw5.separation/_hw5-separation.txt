@@ -1,0 +1,10 @@
+Individual Homework Assignment 5: Separation of implementation from interface. 
+
+==Part 1. Due 15a.==
+
+* Description:
+
+Identify a non-trivial class from your team project, specify its interface, and describe how its implementation is separated from its interface. Be sure to discuss how in general code implementaion is separated from its interface and the benefits of doing this.
+
+Submit in a .txt file checked into this folder using the name: "OAKID-Name-hw5.txt"
+

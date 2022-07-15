@@ -1,0 +1,22 @@
+Team Homework Assignment 2: Questions for the client. 
+
+==Part 1. Due 3A. ==
+
+* Description:
+
+Discuss the inital project materials from the client. Come up with a list of questions.
+
+
+Name the file as "Questions-TEAM-NAME-.txt" and submit in this folder.
+
+
+==Part 2. Due 3B. ==
+
+Refine the questions according to in class discussion. Submit one or more revisions of the questions file.
+
+
+==Part 3. Due 4B. ==
+
+(1) Develop an informal requirement document. Use of bullet lists are encourage. Submit to your own team repository.
+
+(2) Also check in the head-start code to your team repository. (If you need an automatic extension to 5A on (2) only, send a message to the mailing list.)

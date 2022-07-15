@@ -1,0 +1,14 @@
+Error when trying to run JUnit:
+
+Steps I performed to create and run JUnit test case:
+	1) Created a new source folder "test"
+	2) Created a JUnit test case called "test1"
+	3) Right clicked JUnit test class in program browser and clicked RunAs->JUnit test
+	4) Received Java Virtual Machine fatal error
+
+	5) Right clicked JUnit test class in program browser and clicked RunAs->Android JUnit test
+	6) Received error
+		[2012-10-18 13:50:37 - Heartworks.Client.Android] ------------------------------
+		[2012-10-18 13:50:37 - Heartworks.Client.Android] Android Launch!
+		[2012-10-18 13:50:37 - Heartworks.Client.Android] adb is running normally.
+		[2012-10-18 13:50:37 - Heartworks.Client.Android] Heartworks.Client.Android does not specify a android.test.InstrumentationTestRunner instrumentation or does not declare uses-library android.test.runner in its AndroidManifest.xml

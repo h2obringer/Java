@@ -1,0 +1,65 @@
+Team Homework 1
+
+Team Name:Bobcat
+
+Time: Up to an hour before class as pre-determined
+      and any amount of time after class needed.
+
+Location: Classroom (ARC 102)
+
+Member Names:
+	Abdullah Alsalem
+	Camila Alves Pereira
+	Christian Lobenstein
+	Rachel Brown
+
+------------------------------------------------------------------------
+
+Tech:
+Smarphone/pad:
+
+	Abdullah Alsalem 
+		- Samsung Galaxy S, Android 2.3.4
+
+	Camila Alves Pereira 
+		- Samsung Galaxy Y, 1, Android 2.3.6
+
+	Christian Lobenstein 
+		- HTC Evo Design, Android 4.0.3
+
+	Rachel Brown 
+		- Asus Trasnformer Tablet, Android 4.0.3
+-------------------------------------------------------------------------
+Dev. Computer:
+
+	Abdullah Alsalem 
+		- MacBook, 1, Laptop
+
+	Camila Alves Pereira 
+		- Ultrabook Acer, 1, Laptop
+
+	Christian Lobenstein 
+		- HP, 1, Desktop
+
+	Rachel Brown 
+		- Sony Vaio F Series, 1, Laptop
+--------------------------------------------------------------------------
+Server Computer:
+
+	Abdullah Alsalem - None
+
+	Camila Alves Pereira - ?
+
+	Christian Lobenstein - Nope
+
+	Rachel Brown - None
+---------------------------------------------------------------------------
+Programming Languages:
+
+	Abdullah Alsalem - Java, C++,
+
+	Camila Alves Pereira - Java, C++, Assembly
+
+	Christian Lobenstein - C++
+
+	Rae Brown - C++, ActionScript 2.0, Some Javascript, but no Java

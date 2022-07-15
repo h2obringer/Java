@@ -1,0 +1,12 @@
+Code Separation within FoodDiary.java
+
+Interface: food_diary.xml
+	The interface consists of a few buttons, some editTexts and a SurfaceView for the camera.  
+	The buttons are SurfaceView are implemented in the FoodDiary.java using public functions.  
+	The only time that the interface was not separated from the implementation was with the dynamically created content within the App.  When I say dynamically created content I refer to the dialog boxes that pop-up programmatically through the running of the application.  So using the DatePicker as an example, when the button is clicked the dialog box must be manually created within code to allow for an accept button and a cancel button.  
+	
+	The benefits of separation of implementation and interface are:
+		- If you want a new interface, you only need to replace the xml file instead of both the xml and .java files
+		- Less compiling of .java files
+		- Neat code
+		- Android makes it easier to develop.

@@ -1,0 +1,112 @@
+--------------------Homework 2.A*---------------------------------------------------
+ 	
+1) What is the goal of the app?
+2) Who are the users? (age, gender)
+3) Will the app need login/password to be used?
+4) Will the app be different for users and administrators?
+5) Do you want a specific design? (picture, color...)
+6) Will the app need internet to work?
+7) Will the app need database to work?
+8) How often will the app need to be updated?
+9) How do you want the app organized?-Do you want videos integrated with the information(within the lesson) 
+	or do you want them on a seperate part of the app?
+------------------------------------------------------------------------------------
+
+--------------------Homework 2.B*---------------------------------------------------
+
+1) Who are the users? (age, gender)
+2) Will the app need login/password to be used?
+3) Will the app be different for users and administrators?
+4) Do you want one specific color or picture?
+5) How often will the app need to be updated?
+6) Will the didactic material be accessed directly in the cell phone or by the Internet?
+7) Is the homework necessary in order for the patient to start the next lesson?
+8) Do the lessons have to be accessed in a right order?
+8-2) Where do you want the lesson divisions?
+9) Should the homework be submitted by the Internet?
+10) Is answering the survey necessary to continue using the application?
+11) Is there a specific time maximum the patient can use this program? -for example: is there a "this program will take exactly 12 weeks and then you're done" clause?
+	-or will the program need to continue potentially forever?
+------------------------------------------------------------------
+2.C*
+------------------------------------------------------------------
+1) Who are the users?
+-patients: age(50-80 years old), patients with problems relating specifically to cardiac trouble. gender(more men then women, but a fair amount of each)
+
+2) Will a password and login be needed?
+-yes, one per patient for any potentially identifiable or medical information.
+	a seperate nurse's interface might be necessary, so a seperate login app for nurses and doctors (perhaps this one can just be shared amongst them).
+	examples: questionaire, medical information, daily exercise and nutritional data
+
+3) Will the app be different for users and administrators?
+-yes, there will be one for each patient displaying their specific information, and one for the nurse that can see an overview of the othe information.*
+
+4) Do you want one specific color or picture?
+-NOthing specific, but remember the average patient is a bit elderly, so make sure its easy on the eyes and readable.
+
+5) How often will the app need to be updated?
+-Patients will need access at all times to their home application for such things as: nutrition and exercise diaries, questionaires
+-patients and physicians will need access to medical records and forms for their group sessions at least 3 times a week(traditionally mon., wed., and fri.)
+
+6) Will the didactic material be accessed directly in the cell phone or by the Internet?
+-nutritional diaries need to be uploaded to a database.
+-Questionaires and surveys can be made and updated on Qualtics.com, heartworks might possibly use this and want to incorporate this as a way to keep the surveys updated as well as track when they are filling out the surveys. 
+-other options could be store the data on the phone and have them upload it to a mainframe device when they go in for their group sessions. Other information such as exercise diaries and questionaires/homework can also be uploaded at this time, but the internet won't be required at all times.
+
+7) Is the homework necessary in order for the patient to start the next lesson?
+-The homework is required in the program. If a patient forgets to do the homework, they can still access it, but the physicians don't want them to go back and change answers.
+-Optional solutions: create a time stamp to see when the user accesses the homework and how many times(possibly keeping track of changes too)
+
+8) Do the lessons have to be accessed in a right order?
+-Yes, There is a lesson plan designed for the 12 week session, and the information builds on itself. 
+
+8-2) Where do you want the lesson divisions?
+-updated lesson plans have been sent.
+
+9) Should the homework be submitted by the Internet?
+-Homework only needs to be viewed by the physicians during the checkups. Internet might only be needed for time stamp purposes.
+
+10) Is answering the survey necessary to continue using the application?
+-yes-This is a health rehabilitation program for patients with cardiac problems, but data is necessary for the program to improve. Remember, its still a study and the more data received, the better the program can become.
+
+11) Is there a specific time maximum the patient can use this program? -for example: is there a "this program will take exactly 12 weeks and then you're done" clause?
+	-or will the program need to continue potentially forever?
+-Answer: The group session/physical checkups will last for 36 sessions, with 3 sessions/week, going for 12 weeks total. The tablets used at the heartworks center will need to be accounted for this.
+	-However, the patients should still be able to access the information for free at anytime. The purpose of this program is to inform people of way to remain healthy. All readings, lessons and any non-personal information should be able to be accessed by anyone at anytime. Any personal information will require a login and username, but will not be deleted once the 12 week portion of the program is over.
+
+*=new/modified requirements
+
+*****************Focus**************************
+---------------Home Version---------------------------------------
+1)Psychosocial factors*
+	-Questionaires about mood
+	-Lesson 2-thinking through the stress
+	-26 page packet about stress, anxiety, and depression
+	-*huge emphasis on this portion, stress and anxiety is a largely ignored factor to heart disease.
+2)Nutritional Component*
+	-Food Diary-take a picture of the meal before you eat it, store these pictures for upload to their database.
+	-update information
+3)Exercise Component*
+	-update/touch up lessons and information
+	-record daily health statistics. manual input for now, but daily exercises.
+		examples: pedometer, #of jumping jacks, distance walked/biked, swimming if able, etc.
+		-check out fitbit(ultra) and antigraph for example statistics to keep track of
+		-*possibly work with another device to automatically upload the information from the collection device to the smartphone.(start with manual input)
+
+
+
+----------------At Office visits(36 Session)----------------------
+1) Physician view and Patient view will be different. Nurse must easily see all patients in group, individuals only see their information.
+	-Groups: 4-6 people per session-> retrieve information about patients at beginning of the session and again at the end.
+	-patients need their own pad to fill out survey information before and after as a part of the psychosocial input for the session. Other information can be input from the nurse's pad and/or the patients' pads and show changes on both.
+
+2) Each session is different, different activities, etc.
+	-Measuring heart rate, blood pressure, etc.
+	-each session has 90 minutes of exercise after filling out pre-session information.
+
+******************other parameters********************************
+Screen size: if possible, all varying sizes
+	top priority-10" pad
+	next in line-7" android phone
+
+*track what's gonig on in patients' home life better.-food and exercise diaries, etc.

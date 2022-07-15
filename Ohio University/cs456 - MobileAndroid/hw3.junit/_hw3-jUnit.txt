@@ -1,0 +1,19 @@
+Individual Homework Assignment 3: jUnit. 
+
+==Part 1. Due 8A.==
+
+* Description:
+
+Identify one class in your team project. Write a jUnit test suite with parameterized tests. Check in your code along with your team project. 
+
+Different members of the same team should choose different classes to test.
+
+Submit a screenshot of your test case result in this folder.
+
+==Part 2. Due ?.==
+
+Use statement-based coverage to design a test suite to fully cover a non-trivial function in your team project. (There are more than one path in the code.) Check in the test code to your team project.
+
+Submit a screenshot of your test suite results in this folder.
+
+Helpful links: https://github.com/dthommes/JUnit4Android/wiki

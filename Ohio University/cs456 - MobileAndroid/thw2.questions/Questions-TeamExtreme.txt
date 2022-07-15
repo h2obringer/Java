@@ -1,0 +1,59 @@
+Team Extreme Questions:
+	do the survey questions need to be displayed one at a time or should they be in groups?
+	Do the questions need to be individualized, perhaps by category (male/female)?
+	Would it be useful to be able to add questions tailored to an individual?
+	Assuming that some clients will be older, should there be a minimum font size or other 
+		visual needs to keep in mind.
+	If a patient misses a day filling out the survey, should they be able to go back and fill it in?
+	Will a patient need to change information from a previous day?
+	Where is the client going to use the app, at home, in the doctor's office ect?
+	Who is using the app, patients? nurses? doctors? ect?
+	What age range are the clients using the app likely to be?
+	Will the patients have knowledge of smartphone/touch apps?
+	Will the app need a tutorial?
+	Will the clients be using a stylus or finger?
+	
+We want to summarize what the program needs to do, is there anything we have missed?
+	1) deliver media, visual,audio and pdf data
+	2) homework, lessons, and surveys
+	3) record what the patient does
+	4) the results must be visible to doctors
+	5) a section to record exercise data
+ should be able to enter different info: at home info, food surveys
+doctor access a web page to get info access.
+
+
+
+
+
+
+
+
+
+SUmmary of client needs:
+
+1) patient interface:
+		Patient will have acess to online lessons
+			app should track which lessons they have accessed
+		Patient access to online audio files
+			app should also track this use
+		Patient surrveys
+		Patient food log?
+		Patient can enter excercise info
+2) Heartworks session
+		Care provider should be able to fill in patient excercise  		info
+			Ideally under 2 minutes to fill out
+			this should replace current paper forms
+
+3) Data access
+		Care providers should be able to access patient database
+			individual and aggregate
+
+
+points to remember:
+	
+	Keep font size large
+	must be password protected, easy to recover password
+	10" and 7" screen
+	patient might not have full 12 weeks
+		
