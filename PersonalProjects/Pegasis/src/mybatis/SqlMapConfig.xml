@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+                               "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- MyBatis-specific settings -->
+    <settings>
+        <setting name="cacheEnabled" value="true" />
+        <setting name="lazyLoadingEnabled" value="true" />
+        <setting name="multipleResultSetsEnabled" value="true" />
+        <setting name="useColumnLabel" value="true" />
+        <setting name="useGeneratedKeys" value="false" />
+        <setting name="defaultExecutorType" value="SIMPLE" />
+        <setting name="defaultStatementTimeout" value="100" />
+    </settings>
+    
+    <!-- Configure domain objects -->
+    <typeAliases>
+        <typeAlias alias="Move" type="domain.Move" />
+        <typeAlias alias="Owned" type="domain.Owned" />
+        <typeAlias alias="Pokedex" type="domain.Pokedex" />
+        <typeAlias alias="MoveMap" type="domain.MoveMap" />
+    </typeAliases>
+    
+    <!-- Configure datasource -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/Pegasus" />
+                <property name="username" value="root" />
+                <property name="password" value="**44mrdrMRDR44**" />
+            </dataSource>
+        </environment>
+    </environments>
+    
+    <!-- Configure mapper XML files -->
+    <mappers>
+        <mapper resource="mybatis/MoveDAO.xml" />
+        <mapper resource="mybatis/OwnedDAO.xml" />
+        <mapper resource="mybatis/PokedexDAO.xml" />
+        <mapper resource="mybatis/MoveMapDAO.xml" />
+    </mappers>
+</configuration>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+                        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="MoveMapDAO">
+    
+    <resultMap id="movemap-result" type="MoveMap">
+        <result property="move" column="MOVE" />
+    </resultMap>
+    
+    <select id="getAllMoveMap" resultType="MoveMap">
+        SELECT POKEMON, MOVE, LEVEL
+        FROM MOVE_MAP
+    </select>
+    
+    <insert id="insertMoveMap" parameterType="java.util.Map">
+        INSERT INTO MOVE_MAP (POKEMON, MOVE, LEVEL)
+        VALUES (#{pokemon}, #{move}, #{level})
+    </insert>
+    
+    <update id="updateMove" parameterType="java.util.Map">
+        UPDATE MOVE_MAP
+        SET MOVE_MAP.POKEMON = #{pokemon}, MOVE_MAP.MOVE = #{move}, MOVE_MAP.LEVEL = #{level}
+        WHERE pokemon = #{pokemon} AND move = #{move}
+    </update>
+    
+    <delete id="deleteMoveMap" parameterType="java.lang.String">
+        DELETE FROM MOVE_MAP
+        WHERE POKEMON = #{pokemon} AND MOVE = #{move}
+    </delete>
+    
+</mapper>

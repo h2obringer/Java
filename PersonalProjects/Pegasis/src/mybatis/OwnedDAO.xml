@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+                        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="OwnedDAO">
+    
+    <resultMap id="owned-result" type="Owned">
+        <result property="pokemon" column="POKEMON" />
+        <result property="level" column="LEVEL" />
+        <result property="experience" column="EXPERIENCE" />
+        <result property="attack" column="ATTACK" />
+        <result property="defense" column="DEFENSE" />
+        <result property="specialAttack" column="SPECIALATTACK" />
+        <result property="specialDefense" column="SPECIALDEFENSE" />
+        <result property="health" column="HEALTH" />
+        <result property="speed" column="SPEED" />
+        <result property="move1" column="MOVE1" />
+        <result property="move2" column="MOVE2" />
+        <result property="move3" column="MOVE3" />
+        <result property="move4" column="MOVE4" />
+    </resultMap>
+    
+    <select id="getAllOwned" resultType="Owned">
+        SELECT POKEMON, LEVEL, EXPERIENCE, ATTACK, DEFENSE, SPECIALATTACK, SPECIALDEFENSE, HEALTH, SPEED, MOVE1, MOVE2, MOVE3, MOVE4
+        FROM OWNED
+    </select>
+    
+    <select id="getSingleOwned" parameterType="java.lang.String" resultType="Owned">
+        SELECT POKEMON, LEVEL, EXPERIENCE, ATTACK, DEFENSE, SPECIALATTACK, SPECIALDEFENSE, HEALTH, SPEED, MOVE1, MOVE2, MOVE3, MOVE4
+        FROM OWNED
+        WHERE POKEMON=#{pokemon}
+    </select>
+    
+    <insert id="insertOwned" parameterType="java.util.Map">
+        INSERT INTO OWNED (POKEMON, LEVEL, EXPERIENCE, ATTACK, DEFENSE, SPECIALATTACK, SPECIALDEFENSE, HEALTH, SPEED, MOVE1, MOVE2, MOVE3, MOVE4)
+        VALUES (#{pokemon}, #{level}, #{experience}, #{attack}, #{defense}, #{specialAttack}, #{specialDefense}, #{health}, #{speed}, #{move1}, #{move2}, #{move3}, #{move4})
+    </insert>
+    
+    <update id="updateOwned" parameterType="java.util.Map">
+        UPDATE OWNED
+        SET OWNED.LEVEL = #{level}, OWNED.EXPERIENCE = #{experience}, OWNED.ATTACK = #{attack}, OWNED.DEFENSE = #{defense}, OWNED.SPECIALATTACK = #{specialAttack}, OWNED.SPECIALDEFENSE = #{specialDefense}, OWNED.HEALTH = #{health}, OWNED.SPEED = #{speed}, OWNED.MOVE1 = #{move1}, OWNED.MOVE2 = #{move2}, OWNED.MOVE3 = #{move3}, OWNED.MOVE4 = #{move4}
+        WHERE  POKEMON= #{pokemon}
+    </update>
+    
+    <delete id="deleteOwned" parameterType="java.lang.String">
+        DELETE FROM OWNED
+        WHERE POKEMON=#{pokemon}
+    </delete>
+    
+</mapper>

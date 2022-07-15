@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+                        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="PokedexDAO">
+    
+    <resultMap id="pokedex-result" type="Pokedex">
+        <result property="id" column="ID" />
+        <result property="pokemon" column="POKEMON" />
+        <result property="type1" column="TYPE1" />
+        <result property="type2" column="TYPE2" />
+        <result property="seen" column="SEEN" />
+        <result property="caught" column="CAUGHT" />
+    </resultMap>
+    
+    <select id="getAllPokedex" resultType="Pokedex">
+        SELECT ID,POKEMON,TYPE1,TYPE2,SEEN,CAUGHT
+        FROM POKEDEX
+    </select>
+    
+    <select id="getSinglePokedexEntry" parameterType="java.lang.String" resultType="Pokedex">
+        SELECT ID,POKEMON,TYPE1,TYPE2,SEEN,CAUGHT
+        FROM POKEDEX
+        WHERE POKEMON=#{pokemon}
+    </select>
+    
+    <insert id="insertPokedexEntry" parameterType="java.util.Map">
+        INSERT INTO POKEDEX (ID,POKEMON,TYPE1,TYPE2,SEEN,CAUGHT)
+        VALUES (#{id}, #{pokemon}, #{type1}, #{type2}, #{seen}, #{caught})
+    </insert>
+    
+    <update id="updatePokedex" parameterType="java.util.Map">
+        UPDATE POKEDEX
+        SET POKEDEX.ID = #{id}, POKEDEX.POKEMON = #{pokemon}, POKEDEX.TYPE1 = #{type1}, POKEDEX.TYPE2 = #{type2}, POKEDEX.SEEN = #{seen}, POKEDEX.CAUGHT = #{caught}
+        WHERE  POKEMON = #{pokemon}
+    </update>
+    
+    <delete id="deletePokedexEntry" parameterType="java.lang.String">
+        DELETE FROM POKEDEX
+        WHERE POKEMON = #{pokemon}
+    </delete>
+    
+</mapper>

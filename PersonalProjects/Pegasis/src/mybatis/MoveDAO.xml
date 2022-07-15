@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+                        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="MoveDAO">
+    
+    <resultMap id="move-result" type="Move">
+        <result property="move" column="MOVE" />
+        <result property="category" column="CATEGORY" />
+        <result property="movetype" column="MOVETYPE" />
+        <result property="power" column="POWER" />
+        <result property="accuracy" column="ACCURACY" />
+        <result property="pp" column="PP" />
+    </resultMap>
+    
+    <select id="getAllMoves" resultType="Move">
+        SELECT MOVE, CATEGORY, MOVETYPE, POWER, ACCURACY, PP
+        FROM MOVES
+    </select>
+    
+    <select id="getSingleMove" parameterType="java.lang.String" resultType="Move">
+        SELECT MOVE, CATEGORY, MOVETYPE, POWER, ACCURACY, PP
+        FROM MOVES
+        WHERE MOVE=#{moveName}
+    </select>
+    
+    <insert id="insertMove" parameterType="java.util.Map">
+        INSERT INTO MOVES (MOVE, CATEGORY, MOVETYPE, POWER, ACCURACY, PP)
+        VALUES (#{move}, #{category}, #{movetype}, #{power}, #{accuracy}, #{pp})
+    </insert>
+    
+    <update id="updateMove" parameterType="java.util.Map">
+        UPDATE MOVES
+        SET MOVES.CATEGORY = #{category}, MOVES.MOVETYPE = #{movetype}, MOVES.POWER = #{power}, MOVES.ACCURACY = #{accuracy}, MOVES.PP = #{pp}
+        WHERE move = #{move}
+    </update>
+    
+    <delete id="deleteMove" parameterType="java.lang.String">
+        DELETE FROM MOVES
+        WHERE MOVE=#{move}
+    </delete>
+    
+</mapper>
